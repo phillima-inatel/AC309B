@@ -38,11 +38,11 @@ public class PilhaTeste {
 		
 	}
 	
-	/*@Test(expected = EmptyStackException.class)
+	@Test(expected = EmptyStackException.class)
 	public void testePilhaPopException() {
 		Pilha<Integer> pilhaInteiros = new Pilha<Integer>();
 		int retorno = pilhaInteiros.pop();
-	}*/
+	}
 	
 	@Test
 	public void testePilhaPopRetorno() {
